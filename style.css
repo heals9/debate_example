@@ -20,10 +20,27 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
+.text {
+    /*This for a basic website
+    margin: 20px;
+
+    */
+    margin: auto;
+    margin-top: 20px;
+    background-color: wheat;
+    padding: 20px;
+    max-width: 600px;
+}
+
+
+body {
+    background-color: lavender;
+}
+
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    font-family: georgia,serif;
+    font-family: Lexend,serif;
 }
 
 figcaption {
@@ -31,8 +48,20 @@ figcaption {
 
 }
 
+figure{
+    max-width: 600px;
+
+}
+
+img{max-width: 100%}
+
 h1 {
     text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+
 }
 
 .blue {
@@ -46,6 +75,11 @@ h1 {
 
 h6 {
     color:gray;
+}
+
+h6{
+    text-align: center;
+
 }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
